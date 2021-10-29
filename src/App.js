@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import AllMoviesFetch from './components/AllMoviesFetch';
 import SingleMovieFetch from './components/SingleMovieFetch';
 import Registration from './components/Registration.js';
+import { useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,27 +15,30 @@ import {
 } from "react-router-dom";
 
 function App() {
+  useEffect(() => {
+    document.title = "Serve-Me-Show"
+  }, []);
   return (
     <Router>
       <div>
-        <Header/>
-          <Switch>
-            <Route exact path="/">
-              <SliderImages/>
-              <CardsSlider/>
-              <Premieres/>
-            </Route>
-            <Route exact path="/movies">
-              <AllMoviesFetch />
-            </Route>
-            <Route exact path="/movies/:movid">
-              <SingleMovieFetch/>
-            </Route>
-            <Route exact path="/register">
-              <Registration/>
-            </Route>
-          </Switch>
-        <Footer/>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <SliderImages />
+            <CardsSlider />
+            <Premieres />
+          </Route>
+          <Route exact path="/movies">
+            <AllMoviesFetch />
+          </Route>
+          <Route exact path="/movies/:movid">
+            <SingleMovieFetch />
+          </Route>
+          <Route exact path="/register">
+            <Registration />
+          </Route>
+        </Switch>
+        <Footer />
       </div>
     </Router>
   );
