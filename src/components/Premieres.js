@@ -6,7 +6,7 @@ function Premieres() {
   return (
     <div style={{background:"rgb(43, 49, 72)", padding:"5%"}}>
         <h2 style={{color:"white"}}>Premieres</h2>
-        <Carousel indicators={false} variant="dark">
+        <Carousel data-interval={null} indicators={false} variant="dark">
             <Carousel.Item >
                 <CardGroup>
                     <Card>
