@@ -8,11 +8,11 @@ function Premieres() {
         <h2 style={{color:"white"}}>Premieres</h2>
         <Carousel data-interval={null} indicators={false} variant="dark">
             <Carousel.Item >
-                <CardGroup>
+                <CardGroup className="gap-5">
                     <Card>
-                        <Card.Img variant="top" src="./logo192.png" />
+                        <Card.Img variant="top" src="./pre1_nobody.jpg" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Nobody</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
@@ -20,9 +20,9 @@ function Premieres() {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="./logo192.png" />
+                        <Card.Img variant="top" src="./pre2_malignant.jpg" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Malignant</Card.Title>
                         <Card.Text>
                             This card has supporting text below as a natural lead-in to additional
                             content.{' '}
@@ -30,9 +30,9 @@ function Premieres() {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="./logo192.png" />
+                        <Card.Img variant="top" src="./pre3_mojin.jpg" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Mojin</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This card has even longer content than the first to
@@ -45,9 +45,9 @@ function Premieres() {
             <Carousel.Item >
                 <CardGroup>
                     <Card>
-                        <Card.Img variant="top" src="./logo192.png" />
+                        <Card.Img variant="top" src="./pre4_mortal_kombat.jpg" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Mortal Kombat</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
@@ -55,7 +55,7 @@ function Premieres() {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="./logo192.png" />
+                        <Card.Img variant="top" src="./pre5_reminiscene.jpg" />
                         <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
@@ -65,9 +65,9 @@ function Premieres() {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="./logo192.png" />
+                        <Card.Img variant="top" src="./pre6_suicide.jpg" />
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>The Suicide Squad</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This card has even longer content than the first to
